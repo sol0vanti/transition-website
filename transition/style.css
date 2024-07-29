@@ -37,6 +37,10 @@ html {
     font-weight: 500;
 }
 
+.main-section p {
+    margin-bottom: 35px;
+}
+
 .website-button {
     background: #f0f0f0;
 }
@@ -48,8 +52,10 @@ html {
 .button {
     display: block; /* Makes the button a block element so it can take full width */
     width: calc(100% - 30px); /* 100% of parent width minus 15px on each side */
-    margin: 15px; /* 15px margin around the button */
+    margin-right: 15px; /* 15px margin around the button */
+    margin-left: 15px;
     padding: 10px; /* Optional: adjust the padding as needed */
+    margin-bottom: 15px;
     height: 50px;
     border-radius: 10px;
 }
@@ -70,6 +76,31 @@ html {
 .content .button-text {
     margin-left: 8px;
     font-weight: 400;
+}
+
+.content .github-text {
+    color: #f0f0f0;
+}
+
+.delimiter-text {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 20px 0 20px;
+}
+
+.delimiter-text span {
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.telegram-button {
+    background: #24A1DE;
+}
+
+.telegram-text {
+    color: #f0f0f0;
 }
 
 
