@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro";
+}
+
+body {
+    background-color: #E0E2DB;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.main-section {
+    text-align: center;
+    padding: 25px;
+    background: #FFF8F0;
+    width: 410px;
+    height: 575px;
+    margin: 50px auto; /* 50px margin on top and bottom, auto on the sides */
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.main-section h1 {
+    font-size: 96px;
+}
+
+.main-section h3 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.website-button {
+    background: #f0f0f0;
+}
+
+.github-button {
+    background: #352F2F;
+}
+
+.button {
+    display: block; /* Makes the button a block element so it can take full width */
+    width: calc(100% - 30px); /* 100% of parent width minus 15px on each side */
+    margin: 15px; /* 15px margin around the button */
+    padding: 10px; /* Optional: adjust the padding as needed */
+    height: 50px;
+    border-radius: 10px;
+}
+
+.button .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img {
+    width: 16px;
+    height: auto;
+}
+
+.content .button-text {
+    margin-left: 8px;
+    font-weight: 400;
+}
+
+
